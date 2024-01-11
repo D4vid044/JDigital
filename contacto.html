@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDigital Home</title>
+</head>
+<body>
+    <div class="intro">
+        <img src="images/JDigital1.svg" alt="Logo Intro">
+    </div>
+
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/JDigital.svg" alt="logo de la marca">
+        </a>
+      </div>
+
+            <ul class="nav-links">
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="nosotros.html">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn"><button>Contacto</button></a>
+    </header>
+
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+      var intro = document.querySelector('.intro');
+      setTimeout(function() {
+          intro.classList.add('hide');
+      }, 10);
+  });
+</script>
+
+</body>
+</html>
